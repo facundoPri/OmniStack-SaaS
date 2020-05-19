@@ -13,7 +13,7 @@ class Invite extends Model {
   }
 
   team() {
-    return this.belongsTo('App/Model/Team');
+    return this.belongsTo('App/Models/Team');
   }
 }
 
